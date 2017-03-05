@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TakeHomeAssignment06-RachelM</string>
+    <string name="subtotal">subtotal</string>
+    <string name="tax">tax</string>
+    <string name="tip">tip</string>
+    <string name="tax_percentage">tax_percentage</string>
+    <string name="calculate">calculate</string>
+</resources>
