@@ -8,21 +8,8 @@
     tools:context="rachelmiller.takehomeassignment06_rachelm.SecondActivity">
 
     <TextView
-        android:id="@+id/displaySubTotal"
+        android:id="@+id/displayReceipt"
+        style="@style/TextViewStyle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
-    <TextView
-        android:id="@+id/displayTax"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
-    <TextView
-        android:id="@+id/displayTip"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        />
-    <TextView
-        android:id="@+id/displayTotal"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        />
 </LinearLayout>

@@ -9,26 +9,27 @@
 
     <EditText
         android:id="@+id/subtotal"
+        style="@style/TextViewStyle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="@string/subtotal"
-        style="@style/TextViewStyle"/>
+        android:hint="@string/subtotal" />
     <EditText
         android:id="@+id/tax"
+        style="@style/TextViewStyle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="@string/tax"
-        style="@style/TextViewStyle"/>
+        android:hint="@string/tax" />
     <EditText
         android:id="@+id/tip"
+        style="@style/TextViewStyle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="@string/tip"
-        style="@style/TextViewStyle"/>
+        android:hint="@string/tip" />
     <Button
         android:id="@+id/calculate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
         android:hint="@string/calculate"
         android:onClick="calculateTotal" />
 </LinearLayout>
